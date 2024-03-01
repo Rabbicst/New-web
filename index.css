@@ -1,0 +1,382 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    height:auto;
+}
+/*----------------header--------------------*/
+header{
+    width: 100%;
+    height: 500px;
+    background-color: #F9F9FF;
+    position: relative;
+    display: block;
+    padding-bottom: 210px;
+}
+header::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/*----------head-all-------------*/
+.head-all{
+    width: 100%;
+    height: 68px;
+    background-color: #fff;
+    position:fixed;
+    display: block;
+    z-index: 1;
+}
+/*--------------hea1-----------------*/
+.hea1{
+    width: 70%;
+    height: 68px;
+    margin: auto;
+    position: relative;
+    background-color: #fff;
+    z-index: 2;
+}
+/*------------logo---------------*/
+.logo{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    
+}
+.logo img{
+    position: absolute;
+    margin-top:17px;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    top: 20px;
+    right: 0;
+    position: absolute;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+nav ul::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+nav ul li{
+    float: left;
+    padding:6px 10px 21px 10px;
+    transition-delay: 5s;
+} 
+nav ul li>ul{
+    position:absolute;
+    top: 77%;
+    right: 26%;
+    width: 33%;
+    background-color: #fff;
+    height: 10px;
+    height: 88px;
+    text-align: left;
+    display: none;
+
+}
+nav ul li>ul li{
+    list-style: none;
+    float: none;
+    padding: 8px 19px;
+    
+    
+}
+nav ul li:hover>ul{
+    display: block;
+    
+}
+ ul li .ami{
+    color: #8392FF;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: #8490ff;
+}
+
+
+/*-------------text-img--------*/
+.text-img{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: #F9F9FF;
+    position: relative;
+    top: 13%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-img::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.text-img .left{
+    width: 50%;
+    height: 300px;
+    float: left;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+.left small{
+    width: 30%;
+    height: 18px;
+    position: absolute;
+    display: block;
+    top: 35%;
+    left: 33%;
+    text-transform: uppercase;
+    font-size: 4vh;
+}
+.left h1{
+    width: 35%;
+    height: 39px;
+    position: absolute;
+    display: block;
+    top: 39%;
+    left: 32%;
+    font-size: 51px;
+}
+.left p{
+    width: 68%;
+  height: 64px;
+  position: absolute;
+  display: block;
+  top: 90%;
+  left: 31%;
+  padding: 5px 5px;
+  
+}
+h2{
+    width: 25%;
+    height: 33px;
+    position: absolute;
+    top: 120%;
+    left: 31%;
+    color: #8490ff;
+    padding: 5px 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 a{
+    text-decoration: none;
+    background-color:#8195FF;
+    color: white;
+    padding: 10px 20px;
+}
+h2 a:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255, 0.5);
+}
+.right img{
+    max-width: 100%;
+    height: auto;
+}
+/*---------------medail-----------------*/
+.medail{
+    width: 100%;
+    height: 700px;
+    background-color: #FFFFFF;
+    position: relative;
+    display: block;
+   
+}
+
+.medial-frist{
+    width: 80%;
+    height: 700px;
+    position: relative;
+    margin: auto;
+    top: 18%;
+}
+.medial-frist::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.laft-one{
+    float: left;
+    padding: 10px 20px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.laft-one img{
+    width: 90%;
+  height: auto;
+}
+.right-one{
+    width: 37%;
+    height: 362px;
+    position: relative;
+    top: 0%;
+    float: right;
+}
+h3{
+    width: 107%;
+    font-weight: bold;
+    font-size: 40px;
+}
+h4{
+    
+    width: 60%;
+    height: 45px;
+    position: relative;
+    background-color: #8293FF;
+    color: #fff;
+}
+h4 a{
+    position: absolute;
+    margin:14px 25px;
+    z-index: 1;
+    text-decoration:none;
+    color: #fff;
+}
+h4 a:hover{
+    box-shadow: 5px 10px 30px rgba(130,147,255, 0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+}
+/*----------------medial-secend-----------------*/
+.medial-secend{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 143px 0;
+}
+.medial-secend>.hading{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 40%;
+}
+.medial-secend span{
+    position: absolute;
+    width: 47%;
+    margin: auto;
+    left: 25%;
+    text-align: center;
+    top: 10%;
+}
+
+.all-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+   
+}
+.all-box .box{
+    width: 346px;
+    height: 200px;
+    padding: 10px 20px ;
+    margin: 10px 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.all-box .box:hover{
+    background-color: #8293FF;
+}
+.all-box img{
+    width: 50px;
+    height: 60px;
+    margin: 0 20%;
+}
+.all-box h1{
+    margin: 0 10px;
+}
+.all-box p{
+    margin: 0 10px;
+    width: 83%;
+    text-align: center;
+}
+/*-----------------------medial-three--------------------------*/
+.medial-three{
+        width: 100%;
+        height: 270px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #8195FF;
+        margin-top:-69px;
+}
+.box2{
+    width: 17%;
+    height: 104px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.medial-three>.box2 >span{
+    width: 65%;
+    height: 80px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+/*------------------medial-four---------------------*/
+.medial-four{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   position: relative;
+    margin: 10px 0;
+}
+.medial-four>h1{
+    display: block;
+    text-align: center;
+    position: relative;
+}
+.medial-four>h3{
+    width: 100%;
+    position: relative;
+    margin: 8px 0 132px 0;
+    text-align: center;
+    font-size: 15px;
+}
+.box3{
+   width: 250px;
+   height: 360px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction:column;
+   margin: 10px 97px;
+   position: relative;
+
+
+}
+.box3>img{
+    position: relative;
+    width: 250px;
+}
